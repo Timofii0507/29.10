@@ -1,2 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{f4d8aa8b-15f0-4e2d-aad2-eb3aa7a113a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{160c4f4e-bfae-4a5c-8edb-5ec0b8a6ef10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation">
+      <UniqueIdentifier>{3c3fe0b7-a062-45ff-85b9-c1fbd618b6eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3472c3ce-3560-4a8f-80c3-6d1071773b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{b8fe7ea7-5217-4b58-b2f4-be792aa4ceef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Labrary">
+      <UniqueIdentifier>{0d8f7c98-0db0-4af4-b719-10f1727aba07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\BuildMode">
+      <UniqueIdentifier>{b9dce1a6-dbc8-4c33-aa18-d96a8abdeb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Constants">
+      <UniqueIdentifier>{df108de2-b7b3-4576-bc7b-c727f1d153be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Data_Sources">
+      <UniqueIdentifier>{4c6bb6b3-55c0-4e8b-bbd8-11ea959bd248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Data_Sources\Remote">
+      <UniqueIdentifier>{8105c1c4-d77f-4b15-bbb7-4fab5427adff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation\Screen">
+      <UniqueIdentifier>{b7531d4d-1932-4fec-9343-c5ddc30cb2d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Library\Library.h">
+      <Filter>Core\Labrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\BuildMode\BuildMode.h">
+      <Filter>Core\BuildMode</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Constants\Constants.h">
+      <Filter>Core\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Data_Sources\Remote\Remote_api.h">
+      <Filter>Data\Data_Sources\Remote</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\Screen\Home.h">
+      <Filter>Presentation\Screen</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Core\BuildMode\BuildMode.h" />
+    <ClInclude Include="Core\Constants\Constants.h" />
+    <ClInclude Include="Core\Library\Library.h" />
+    <ClInclude Include="Data\Data_Sources\Remote\Remote_api.h" />
+    <ClInclude Include="Presentation\Screen\Home.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
