@@ -14,7 +14,7 @@ void Application()
 	}
 	else
 	{
-		request_url = BuildAsDev();
+		request_url = BuildAsProd();
 	}
 	string response = FetchApiData(request_url);
 	Home(response);

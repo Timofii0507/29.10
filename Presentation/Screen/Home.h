@@ -2,6 +2,7 @@
 
 void Home(string data)
 {
-	cout << "Home Screen" << endl;
-	cout << "Data: " << data << endl;
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1215);
+	cout << data << endl;
 }

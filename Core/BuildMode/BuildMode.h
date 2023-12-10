@@ -9,7 +9,7 @@ string BuildAsDev()
 
 string BuildAsProd()
 {
-	SetConsoleTitle(L"Application Dev");
+	SetConsoleTitle(L"Application Prod");
 	string request_url = api_url + api_key_pattern + GetProdKey();
 	return request_url;
 }
